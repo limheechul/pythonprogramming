@@ -11,7 +11,7 @@ def exchange(amount):
         amount %= coin
 
     for coin in coins:
-        print(f"{coin}원 동전의 개수: {coin_counts[coin]}")
+        print(coin,'원 동전의 개수:', coin_counts[coin])
 
 amount = get_integer()
 exchange(amount)
