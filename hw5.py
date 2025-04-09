@@ -1,5 +1,7 @@
 def read_single_digit(d):
-    if d == '1':
+    if d == '0':
+        return '영'
+    elif d == '1':
         return '일'
     elif d == '2':
         return '이'
